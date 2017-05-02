@@ -1,0 +1,68 @@
+{
+  "collections": [
+    {
+      "band": "Tool",
+      "albums": [
+        {
+          "title": "Lateralus",
+          "year": "2001",
+          "songs": [
+            {
+              "title": "The Grudge"
+            },
+            {
+              "title": "Eon Blue Apocalypse"
+            },
+            {
+              "title": "The Patient"
+            },
+            {
+              "title": "Mantra"
+            },
+            {
+              "title": "Schism"
+            },
+            {
+              "title": "Parabol"
+            },
+            {
+              "title": "Parabola"
+            },
+            {
+              "title": "Ticks & Leeches"
+            },
+            {
+              "title": "Lateralus"
+            },
+            {
+              "title": "Disposition"
+            },
+            {
+              "title": "Reflection"
+            },
+            {
+              "title": "Triad"
+            }
+          ]
+        },
+        {
+          "title": "Aenima",
+          "year": "1996"
+        }
+      ]
+    },
+    {
+      "band": "Deftones",
+      "albums": [
+        {
+          "title": "White Pony",
+          "year": "2000"
+        },
+        {
+          "title": "Around the fur",
+          "year": "1997"
+        }
+      ]
+    }
+  ]
+}

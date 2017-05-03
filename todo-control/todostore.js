@@ -2,7 +2,6 @@
 // Flux stores house application logic and state that relate to a specific domain.
 // In this case, a list of todo items.
 function TodoStore(){
-  window.store = this;
  riot.observable(this); // Riot provides our event emitter
 
  // we solve the js function scope problem with this.
@@ -25,15 +24,11 @@ function TodoStore(){
 
   self.on('todo_remove', function() {
     self.todos.pop();
-    console.log('remove');
     self.trigger('todos_changed',self.todos);
   });
 
   self.on('todo_init', function() {
-console.log('changed');
-console.log(self);
     self.trigger('todos_changed',self.todos);
-
   });
 
   // The store emits change events to any listening views, so that they may react and redraw themselves.

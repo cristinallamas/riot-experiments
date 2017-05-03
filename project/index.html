@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Riot Project</title>
+    <script src="./node_modules/riot/riot.min.js"></script>
+    <!-- <script src="./node_modules/riot-control/riot-control.js"></script> -->
+    <script src="riotcontrol.js"></script>
+
+    <!-- store where events are defined -->
+    <script src="projectstore.js"></script>
+    <!-- once working the tags need to be compiled in to js and pointed to here-->
+    <!-- this saves the browser some processing -->
+    <script src="project.tag" type="riot/tag"></script>
+    <!-- once compiled into js files we won't need the compiler here -->
+    <script src="../node_modules/riot/riot+compiler.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <project></project>
+
+
+    <script>
+      var projectStore = new ProjectStore(); // Create a store instance.
+      RiotControl.addStore(projectStore); // Register the store in central dispatch.
+      riot.mount('project'); // Kickoff the Riot app.
+    </script>
+
+  </body>
+
+</html>

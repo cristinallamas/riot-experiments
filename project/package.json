@@ -1,0 +1,25 @@
+{
+  "name": "RiotProject.js",
+  "description": "Riot project",
+  "version": "0.1.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "riot": "^2.2.4",
+    "superstatic": "4.1.0",
+    "riot-compiler": "3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristinallamas/riot-experiments"
+  },
+  "bugs": {
+    "url": "https://github.com/cristinallamas/riot-experiments/issues"
+  },
+  "dependencies": {
+    "riot-control": "^1.0.0"
+  }
+}

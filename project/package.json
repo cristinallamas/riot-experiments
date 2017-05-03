@@ -8,9 +8,14 @@
     "node_modules"
   ],
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bytesize": "^0.2.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-riot": "^0.1.8",
     "riot": "^2.2.4",
-    "superstatic": "4.1.0",
-    "riot-compiler": "3.2.1"
+    "riot-compiler": "3.2.1",
+    "superstatic": "4.1.0"
   },
   "repository": {
     "type": "git",

@@ -13,3 +13,11 @@ There is 3 different Tags or components
 * List
 * Searchbox
 * Favorite Section
+
+# How to check it out and be amazed
+```
+git clone git@github.com:cristinallamas/riot-experiments.git
+cd riot-experiments/lastfm
+npm i
+open -a "Google Chrome" index.html
+```

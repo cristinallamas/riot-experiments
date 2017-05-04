@@ -1,4 +1,13 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
 
+h1{
+  text-align: center;
+}
+h1 span{
+  font-size: 1rem;
+}
 button:focus{
   outline:none;
 }
@@ -46,21 +55,34 @@ border:0px;
 
 
 /* Search Form */
-
-#search-form label{
+#search-form{
+  display: flex;
+  align-items: center;
+}
+/*#search-form label{
   font-size: 2rem;
   text-transform: uppercase;
-}
+}*/
 #search-form .search-input{
   background-color: whitesmoke;
     border: 0px solid;
     height: 50px;
-    width: 300px;
+    width: 100%;
     font-size: 2rem;
+    color:darkgrey;
+}
+#search-form .search-input::placeholder{
+  color:darkgrey;
 }
 #search-form .search-input:focus{
     outline:none;
 }
+/*#search-form button{
+  height: 50px;
+  border:3px solid darkgrey;
+  color:darkgrey;
+  background-color: whitesmoke;
+}*/
 
 /* Favorites*/
 favorites button{

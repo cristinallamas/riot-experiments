@@ -2,9 +2,7 @@
 
 
   <form id="search-form" >
-    <label>Search:</label>
-    <input class="search-input" type="text" onkeyup={submitQuery} placeholder="Search for bands.." />
-    <button> Search </button>
+    <input class="search-input" type="text" onkeyup={submitQuery} placeholder="Filter by band name" />
   </form>
 
 

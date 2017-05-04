@@ -65,7 +65,7 @@ function ProjectStore(){
   self.on('favorite_remove',function(item){
     for (var i in this.favorites) {
       if (this.favorites[i].name == item.name) {
-        this.favorites.splice(item, 1);
+        this.favorites.splice(i, 1);
         self.trigger('favorites_update',this.favorites);
       }
     }

@@ -1,3 +1,12 @@
+
+button:focus{
+  outline:none;
+}
+button{
+  cursor:pointer;
+}
+
+/* Bands List */
 #project-list{
   display:flex;
   flex-wrap: wrap;
@@ -7,7 +16,7 @@
 #project-list article{
   align-self:flex-start;
   text-align: center;
-  background-color: #eee;
+  /*background-color: #eee;*/
   padding:10px;
   margin:10px;
 }
@@ -23,21 +32,42 @@
   text-decoration: none;
   color:black;
 }
+#project-list article button{
+margin:10px;
+float:right;
+background-color: #caac41;
+border-radius: 3px;
+border:0px;
+
+}
+#project-list article button i{
+  color:white;
+}
+
+
+/* Search Form */
+
 #search-form label{
   font-size: 2rem;
   text-transform: uppercase;
-
 }
-
 #search-form .search-input{
   background-color: whitesmoke;
     border: 0px solid;
     height: 50px;
     width: 300px;
-    /*color: #CCC;*/
     font-size: 2rem;
 }
 #search-form .search-input:focus{
     outline:none;
+}
 
+/* Favorites*/
+favorites button{
+  margin-left: 10px;
+  border:0px;
+  background-color: transparent;
+  font-weight: bold;
+  color:red;
+  font-size: 1rem;
 }

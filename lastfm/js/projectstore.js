@@ -7,6 +7,7 @@ function ProjectStore(){
   // Initializing the list.
   self.json = {};
   self.favorites = [];
+  self.filtered =[];
 
 
 

@@ -1,0 +1,43 @@
+#project-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+#project-list article{
+  align-self:flex-start;
+  text-align: center;
+  background-color: #eee;
+  padding:10px;
+  margin:10px;
+}
+#project-list article img{
+  display:block;
+  margin:auto;
+}
+#project-list article h4{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+#project-list article h4 a{
+  text-decoration: none;
+  color:black;
+}
+#search-form label{
+  font-size: 2rem;
+  text-transform: uppercase;
+
+}
+
+#search-form .search-input{
+  background-color: whitesmoke;
+    border: 0px solid;
+    height: 50px;
+    width: 300px;
+    /*color: #CCC;*/
+    font-size: 2rem;
+}
+#search-form .search-input:focus{
+    outline:none;
+
+}

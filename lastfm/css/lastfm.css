@@ -59,10 +59,6 @@ border:0px;
   display: flex;
   align-items: center;
 }
-/*#search-form label{
-  font-size: 2rem;
-  text-transform: uppercase;
-}*/
 #search-form .search-input{
   background-color: whitesmoke;
     border: 0px solid;
@@ -77,12 +73,6 @@ border:0px;
 #search-form .search-input:focus{
     outline:none;
 }
-/*#search-form button{
-  height: 50px;
-  border:3px solid darkgrey;
-  color:darkgrey;
-  background-color: whitesmoke;
-}*/
 
 /* Favorites*/
 favorites button{

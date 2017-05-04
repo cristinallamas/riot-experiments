@@ -13,9 +13,9 @@
 
 
   submitQuery(e){
+    var text = e.currentTarget.value;
+    RiotControl.trigger('search_band', text);
 
-    console.log(e.currentTarget.value);
-    
   }
 
 

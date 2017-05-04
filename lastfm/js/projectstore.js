@@ -8,7 +8,7 @@ function ProjectStore(){
   self.json = {};
   self.favorites = [];
   self.filtered =[];
-
+  self.list = [];
 
 
 
@@ -71,6 +71,63 @@ function ProjectStore(){
     }
   });
 
+  self.on('search_band',function(queryText){
+    var artistList = self.json.topartists.artist;
+
+    // console.log(self.json.topartists.artist);
+    console.log(queryText);
+    // console.log(self.filtered);
+
+    // self.filtered = artistList.filter(function(word){
+      var subArray= [];
+          for (var i = 0; i < artistList.length; i++){
+                    var bandName = artistList[i].name.toLowerCase();
+
+                    if(bandName.startsWith( queryText.toLowerCase() ) ){
+                      subArray.push(artistList[i]);
+                    }
+
+          }
+          console.log(subArray);
+          self.filtered = subArray;
+
+          self.trigger('project_changed',self);
+
+
+    // }
+
+
+        // function(el){
+        //     for (var i = 0; i < artistList.length; i++){
+        //         // console.log("i is " + i);
+        //
+        //         if(str.includes(queryText)){
+        //           // self.filtered.push(artistList[i]);
+        //           console.log(artistList[i].name);
+        //
+        //           return true;
+        //         }
+        //         // if(artistList[i].name)
+        //         //  for (var j in artistList){
+        //         //     console.log("Passed Filter j " + self.filtered[j]);
+        //         //     console.log("Passed Array  i " + self.json[i][1]);
+        //         //     console.log("String Search " + self.json[i][1].search(self.filtered[j]));
+        //         //
+        //         //     // if (self.json[i][1].search(self.filtered[j]) != -1){
+        //         //     //     return true;
+        //         //     // }
+        //         // }
+        //     }
+        //      return false;
+        // }
+
+
+     //.);
+
+
+
+
+  });
 
   /**
   * Look for the item in the favorite array.

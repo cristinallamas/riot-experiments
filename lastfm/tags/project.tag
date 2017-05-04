@@ -6,7 +6,7 @@
     <!-- <ul>
        <li json.topartists.artist.filter(whatShow)></li>
     </ul> -->
-    <article each={ item in json.topartists.artist}>
+    <article each={ item in list}>
       <h4><a href= {item.url} >{item.name}</a></h4>
       <div class="article-content">
         <img src={item.image[2]['#text']}/>
@@ -33,6 +33,13 @@
   // Communication with the store
   RiotControl.on('project_changed', function() {
     self.json = this.json;
+    self.filtered = this.filtered;
+    if(self.filtered.length){
+      self.list = self.filtered;
+    }
+    else{
+      self.list = self.json.topartists.artist;
+    }
     self.update();
   });
 

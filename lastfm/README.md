@@ -18,5 +18,6 @@ There is 3 different Tags or components
 ```
 git clone git@github.com:cristinallamas/riot-experiments.git
 cd riot-experiments/lastfm
+npm i
 open -a "Google Chrome" index.html
 ```

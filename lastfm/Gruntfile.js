@@ -41,7 +41,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['compile-riot','jshint','post-build']);
   grunt.registerTask('full', ['riot','jshint']);
   grunt.registerTask('compile-riot', ['riot']);
-
+  grunt.registerTask('checkjs', ['jshint']);
   grunt.registerTask('post-build', [
   'bytesize'
   ]);

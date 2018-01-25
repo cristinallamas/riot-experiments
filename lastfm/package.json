@@ -17,6 +17,9 @@
     "riot-compiler": "3.2.1",
     "superstatic": "4.1.0"
   },
+  "scripts": {
+    "build": "npm install; grunt riot"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/cristinallamas/riot-experiments"

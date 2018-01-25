@@ -1,16 +1,23 @@
-# riot-experiments
+# Bands listing
 
-## Test it locally
+This consist in a json feed provided by lastfm, this information is shown as a list. You can favorite or unfav some bands which will show in the favorite section. It also has a searchbox that allows you to filter by band name.
 
-run it with the localhost provided by with superstatic https://github.com/firebase/superstatic#installation
+The project uses
+* RiotControl
+* LastFM json feed
+* Riotjs
 
-to add the feature to your projects
+
+There is 3 different Tags or components
+
+* List
+* Searchbox
+* Favorite Section
+
+# How to check it out and be amazed
 ```
-npm install superstatic --save
-```
-By default, Superstatic will simply serve the current directory on port
-`3474`. This works just like any other static server:
-
-```
-$ superstatic
+git clone git@github.com:cristinallamas/riot-experiments.git
+cd riot-experiments/lastfm
+npm i
+open -a "Google Chrome" index.html
 ```

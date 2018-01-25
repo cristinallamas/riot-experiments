@@ -1,33 +1,33 @@
 {
-"name": "RiotProject.js",
-"description": "Riot project",
-"version": "0.1.0",
-"license": "MIT",
-"ignore": [
-"**/.*",
-"node_modules"
-],
-"devDependencies": {
-"grunt": "^1.0.1",
-"grunt-bytesize": "^0.2.0",
-"grunt-cli": "^1.2.0",
-"grunt-contrib-jshint": "^1.1.0",
-"grunt-riot": "^0.1.8",
-"riot": "^2.2.4",
-"riot-compiler": "3.2.1",
-"superstatic": "4.1.0"
-},
-"scripts": {
-"build": "grunt riot"
-},
-"repository": {
-"type": "git",
-"url": "https://github.com/cristinallamas/riot-experiments"
-},
-"bugs": {
-"url": "https://github.com/cristinallamas/riot-experiments/issues"
-},
-"dependencies": {
-"riot-control": "^1.0.0"
-}
+  "name": "RiotProject.js",
+  "description": "Riot project",
+  "version": "0.1.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bytesize": "^0.2.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-riot": "^0.1.8",
+    "riot": "^2.2.4",
+    "riot-compiler": "3.2.1",
+    "superstatic": "4.1.0"
+  },
+  "scripts": {
+    "build": "grunt riot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristinallamas/riot-experiments"
+  },
+  "bugs": {
+    "url": "https://github.com/cristinallamas/riot-experiments/issues"
+  },
+  "dependencies": {
+    "riot-control": "^1.0.0"
+  }
 }

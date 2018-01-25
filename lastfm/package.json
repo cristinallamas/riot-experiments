@@ -18,7 +18,7 @@
     "superstatic": "4.1.0"
   },
   "scripts": {
-    "build": "npm install; grunt riot"
+    "build": "grunt riot"
   },
   "repository": {
     "type": "git",

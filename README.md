@@ -14,3 +14,10 @@ By default, Superstatic will simply serve the current directory on port
 ```
 $ superstatic
 ```
+
+## Last FM experiment
+
+Gets a feed from last fm and 3 components, a search area, a favorites area and a bands feed. You can add bands to your favorite area.
+
+A demo can be found at https://cristinallamas-riot-lastfm.netlify.com/
+

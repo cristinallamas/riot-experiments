@@ -1,4 +1,4 @@
-# riot-experiments
+# RiotJs Experiments
 
 ## Test it locally
 

@@ -17,7 +17,7 @@ $ superstatic
 
 ## Last FM experiment
 
-Gets a feed from last fm and 3 components, a search area, a favorites area and a bands feed. You can add bands to your favorite area.
+Gets a feed from last fm and 3 components, a search area, a favorites area and a bands feed. You can add/remove bands to/from your favorite area.
 
 A demo can be found at https://cristinallamas-riotjs-lastfm.netlify.com/
 

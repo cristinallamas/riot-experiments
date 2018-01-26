@@ -21,3 +21,4 @@ Gets a feed from last fm and 3 components, a search area, a favorites area and a
 
 A demo can be found at https://cristinallamas-riotjs-lastfm.netlify.com/
 
+![App Preview](https://ibb.co/dzu03b)

@@ -21,3 +21,9 @@ cd riot-experiments/lastfm
 npm i
 open -a "Google Chrome" index.html
 ```
+
+## Demo
+
+A demo can be found at https://cristinallamas-riotjs-lastfm.netlify.com/
+
+![App Preview](https://preview.ibb.co/bRJSib/Screen_Shot_2018_01_26_at_15_39_36.png)

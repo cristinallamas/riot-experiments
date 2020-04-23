@@ -1,14 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Riot Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="css/lastfm.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/lastfm.css" />
     <!-- once compiled the js tags we can use riot.js -->
     <script src="./node_modules/riot/riot.min.js"></script>
-    <script src="https://raw.githubusercontent.com/riot/riot/master/riot.min.js"></script>
     <script src="js/riotcontrol.js"></script>
     <!-- store where events are defined -->
     <script src="js/projectstore.js"></script>
@@ -30,8 +35,7 @@
     <script>
       var projectStore = new ProjectStore(); // Create a store instance.
       RiotControl.addStore(projectStore); // Register the store in central dispatch.
-      riot.mount('*'); // Kickoff the Riot app.
+      riot.mount("*"); // Kickoff the Riot app.
     </script>
-
   </body>
 </html>

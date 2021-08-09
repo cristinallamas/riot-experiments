@@ -15,7 +15,7 @@
     "grunt-riot": "^0.1.8",
     "riot": "^2.2.4",
     "riot-compiler": "3.2.1",
-    "superstatic": "4.1.0"
+    "superstatic": "5.0.2"
   },
   "scripts": {
     "build": "grunt riot"
